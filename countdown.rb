@@ -1,4 +1,5 @@
 #write your code here
+<<<<<<< HEAD
 
 def countdown_with_sleep (n)
 while n > 0 do
@@ -16,4 +17,18 @@ def countdown (n)
   end
   return "HAPPY NEW YEAR!"
 end
+=======
+require 'pry'
+def countdown_with_sleep (n = 10)
+while n > 0 do
+  puts "#{n} SECONDS(S)!"
+  n -= 1
+  sleep(1.0)
+  binding.pry
+end
+sleep(1.0)
+puts "HAPPY NEW YEAR!"
+end
+
+>>>>>>> c19b50a2db9b0d645b91433461ffebee6be7fa2b
 
